@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class OrderedListExample {
+    public static void main(String[] args) {
+        ArrayList<String> items = new ArrayList<>();
+        items.add("Banana");
+        items.add("Apple");
+        items.add("Orange");
+
+        Collections.sort(items); // Sorts alphabetically
+
+        System.out.println("Ordered List:");
+        for (String item : items) {
+            System.out.println(item);
+        }
+    }
+}
