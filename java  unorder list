@@ -1,0 +1,13 @@
+public class UnorderedListExample {
+    public static void main(String[] args) {
+        ArrayList<String> items = new ArrayList<>();
+        items.add("Banana");
+        items.add("Apple");
+        items.add("Orange");
+
+        System.out.println("Unordered List:");
+        for (String item : items) {
+            System.out.println(item);
+        }
+    }
+}
