@@ -1,0 +1,7 @@
+public static void main(String[] args) {
+    Spublic class Main {
+  ystem.out.println("Hello World!");
+    Shttps://www.w3schools.com/ystem.out.println("I am learning Java.");
+    System.out.println("It is awesome!");
+  }
+}
