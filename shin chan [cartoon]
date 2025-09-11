@@ -1,0 +1,15 @@
+class shin chan {
+  protected String brand = "entertainment";
+  public void honk() {
+    System.out.println("fun/fun!");
+  }
+}
+
+class episode  extends shin chan{
+  private String modelName = "entertainment";
+  public static void main(String[] args) {
+    Car myFastCar = new episode();
+    myFastCar.honk();
+    System.out.println(new episode.hungama + " " + new episode.model shin chan);
+  }
+}
